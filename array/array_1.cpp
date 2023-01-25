@@ -26,8 +26,8 @@ int main() {
 	for (int i = 9; i < 100; i++) {
 		v.emplace_back(Employee{i, 'Z'});
 	}
-	// std::stable_sort(v.begin(), v.end());
-	std::sort(v.begin(), v.end());
+	std::stable_sort(v.begin(), v.end());
+	// std::sort(v.begin(), v.end());
 
 	for (const Employee& e: v) {
 		std::cout << e.age << ", " << e.name << std::endl;

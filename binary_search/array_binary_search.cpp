@@ -6,7 +6,7 @@ int a(vector<int> nums, int target)
 {
 	cout << nums.size() << endl;
 	unsigned long left = 0;
-	unsigned long right = nums.size();
+	unsigned long right = nums.size() - 1;
 
 
 	while(left <= right)
