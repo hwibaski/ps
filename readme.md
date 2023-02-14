@@ -6,3 +6,5 @@
 
 ### 문자열
 - [ ] [팰린드롬](https://leetcode.com/problems/valid-palindrome/)
+- [ ] [reverse_string](https://leetcode.com/problems/reverse-string/)
+- [ ] [reorder_data_in_log_files](https://leetcode.com/problems/reorder-data-in-log-files/)
