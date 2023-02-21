@@ -1,5 +1,4 @@
-# 풀지도 못함
-
+# ver.2023-02-14
 s = input()
 strs = []
 for char in s:
@@ -12,6 +11,22 @@ for i in range(len(strs)):
         is_right = False
         break
 
-print(is_right)
 
-# A man, a plan, a canal: Panama
+# -----------------------------------------------------------------
+
+
+# ver.2023-02-21
+def solution(s: str):
+    strArr = [s.lower() for s in s if s.isalnum()]
+    reverse = strArr[::-1]
+    print(strArr)
+    print(reverse)
+    if strArr == reverse:
+        return True
+    else:
+        return False
+
+
+print(solution("A man, a plan, a canal: Panama"))
+
+# -----------------------------------------------------------------
